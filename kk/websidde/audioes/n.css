@@ -1,0 +1,34 @@
+body{
+    background: blue;
+}
+@media only screen and(min-width:0px),(max-width:320px) {
+    body{
+        background: hotpink;
+    }
+    #n{height: 380px;
+    float: right;
+float: center;
+width:100%;}
+
+}
+@media only screen and(min-width:321px),(max-width:500px) {
+    body{
+        background: hotpink;
+    }
+    #n{height: 580px;
+    float: right;
+float: center;
+width:100%;}
+
+}
+@media only screen and(min-width:501px),(max-width:920px) {
+    body{
+        background: hotpink;
+    }
+    #n{height: 680px;
+    float: right;
+float: center;
+display: inline;
+width:100%;}
+
+}
